@@ -3,7 +3,7 @@ using namespace std;
 
 void BinarySearch(string dam[16], int n, string name) {
 	int adam = 0, putra = n - 1;
-	int mid c = (adam + putra) / 2;
+	int mid  = (adam + putra) / 2;
 
 	while (adam <= putra) {
 		if (dam[mid] == name) {
@@ -27,6 +27,15 @@ void BinarySearch(string dam[16], int n, string name) {
 }
 
 int main() {
-	const int MAX_LENGHT
+	const int MAX_LENGHT = 16;
+	string dam[MAX_LENGHT] = { "" }
+		int n = MAX_LENGHT
+		string name;
+
+	cout << "masukan nama yang ingin di cari"
+	
+
+
+	
 }
 
